@@ -14,7 +14,7 @@ for msar,mjld,file in os.walk(mas):
 		m = fs2.find('.')
 		mt=fs2[m:-1]+fs2[-1]
 		if mt == ".txt":
-			data=open(fs2,"r")"""img = rb"""
+			data=open(fs2,"r")
 			data=data.read()
 
 			encrypted=fernet.encrypt(data.encode())
